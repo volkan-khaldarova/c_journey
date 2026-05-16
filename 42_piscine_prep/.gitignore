@@ -1,2 +1,25 @@
-main.c 
+# Compiled binaries (executables)
 a.out
+*.o
+*.a
+*.so
+*.out
+
+# macOS system files (crucial if working on a Mac)
+.DS_Store
+
+# Text editor / IDE temporary files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Testing files (standard for not submitting your own tests)
+test
+main.c
+user_tests/
+
+# 42 specific
+.nfs*
+
