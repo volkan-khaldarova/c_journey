@@ -1,0 +1,20 @@
+/* Adds two fractions */
+
+#include <stdio.h>
+
+int main(void) {
+  int num1, denom1, num2, denom2, result_num, resutl_denom;
+
+  printf("Enter first fractions: ");
+  scanf("%d/%d", &num1, &denom1);
+
+  printf("Enter second fractions: ");
+  scanf("%d/%d", &num2, &denom2);
+
+  result_num = num1 * denom2 + num2 * denom1;
+
+  resutl_denom = denom1 * denom2;
+  printf("The sum is %d/%d\n", result_num, resutl_denom);
+
+  return 0;
+}
