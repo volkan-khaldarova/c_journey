@@ -1,0 +1,3 @@
+/home/volkan/Projects/c_journey/C-programming/ch06/exercises/ex06/build/CMakeFiles/ex06.dir
+/home/volkan/Projects/c_journey/C-programming/ch06/exercises/ex06/build/CMakeFiles/edit_cache.dir
+/home/volkan/Projects/c_journey/C-programming/ch06/exercises/ex06/build/CMakeFiles/rebuild_cache.dir
