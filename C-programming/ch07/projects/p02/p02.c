@@ -1,26 +1,25 @@
-#include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void) {
+  long int i, n;
 
-  int ch, vowels = 0;
+  printf("How many rows should the table have? ");
+  if (scanf("%ld", &n) != 1) {
+    puts("Invalid input !");
+    return EXIT_FAILURE;
+  }
 
-  printf("Enter a sentence: ");
-  while ((ch = getchar()) != '\n') {
-    switch (toupper(ch)) {
-    case 'A':
-    case 'E':
-    case 'I':
-    case 'O':
-    case 'U':
-      vowels++;
-      break;
-    default:
-      break;
+  getchar();
+
+  for (i = 1; i <= n; i++) {
+    printf("%10ld%10ld\n", i, i * i);
+
+    if (i % 24 == 0) {
+      printf("Press Enter to continue...\n");
+      getchar();
     }
   }
 
-  printf("Your sentence contains %d vowels.\n", vowels);
   return EXIT_SUCCESS;
 }
